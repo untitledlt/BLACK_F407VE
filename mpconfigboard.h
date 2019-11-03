@@ -20,6 +20,18 @@
 #define MICROPY_HW_RTC_USE_US       (0)
 // #define MICROPY_HW_RTC_USE_CALOUT   (1)  // turn on/off PC13 512Hz output
 
+// Ethernet via RMII
+#define MICROPY_HW_ETH_MDC          (pin_C1)
+#define MICROPY_HW_ETH_MDIO         (pin_A2)
+#define MICROPY_HW_ETH_RMII_REF_CLK (pin_A1)
+#define MICROPY_HW_ETH_RMII_CRS_DV  (pin_A7)
+#define MICROPY_HW_ETH_RMII_RXD0    (pin_C4)
+#define MICROPY_HW_ETH_RMII_RXD1    (pin_C5)
+
+#define MICROPY_HW_ETH_RMII_TX_EN   (pin_B11)
+#define MICROPY_HW_ETH_RMII_TXD0    (pin_B12)
+#define MICROPY_HW_ETH_RMII_TXD1    (pin_B13)
+
 // USART1
 #define MICROPY_HW_UART1_TX     (pin_A9)   // PA9,PB6
 #define MICROPY_HW_UART1_RX     (pin_A10)  // PA10,PB7
