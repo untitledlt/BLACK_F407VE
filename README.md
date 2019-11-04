@@ -16,7 +16,7 @@ Clone the board definitions to your [MicroPython](https://github.com/micropython
 
 ```bash
 cd micropython/ports/stm32/boards
-git clone https://github.com/mcauser/BLACK_F407VE.git
+git clone https://github.com/untitledlt/BLACK_F407VE.git
 
 cd ..
 make BOARD=BLACK_F407VE
@@ -232,7 +232,7 @@ screen /dev/ttyACM0 115200
 
 ### Links
 
-* [STM32F407VE on st.com](http://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-cortex-mcus/stm32-high-performance-mcus/stm32f4-series/stm32f407-417/stm32f407ve.html)
+* [STM32F407VE on st.com](http://www.st.com/content/st_com/en/products/microcontrollers/stm32-32-bit-arm-cortex-s/stm32-high-performance-mcus/stm32f4-series/stm32f407-417/stm32f407ve.html)
 * Buy on [AliExpress] or search for "STM32F407VET6"
 * Buy on [Taobao](https://item.taobao.com/item.htm?id=523083108350)
 * [STM32F407VET6 datasheet](https://github.com/mcauser/BLACK_F407VE/blob/master/docs/STM32F407VET6_datasheet.pdf)
